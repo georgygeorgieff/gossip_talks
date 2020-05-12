@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="37" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-07T06:13:08Z" name="Surefire suite" finished-at="2020-05-07T06:13:47Z" duration-ms="38056">
+    <groups>
+    </groups>
+    <test started-at="2020-05-07T06:13:08Z" name="Surefire test" finished-at="2020-05-07T06:13:47Z" duration-ms="38056">
+      <class name="bg.codeacademy.spring.gossiptalks.model.UserTest">
+        <test-method is-config="true" signature="createValidator()[pri:0, instance:bg.codeacademy.spring.gossiptalks.model.UserTest@54151d07]" started-at="2020-05-07T09:13:46Z" name="createValidator" finished-at="2020-05-07T09:13:46Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidator -->
+        <test-method signature="test_user_Null()[pri:0, instance:bg.codeacademy.spring.gossiptalks.model.UserTest@54151d07]" started-at="2020-05-07T09:13:46Z" name="test_user_Null" finished-at="2020-05-07T09:13:46Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_user_Null -->
+        <test-method signature="test_user_invalid()[pri:0, instance:bg.codeacademy.spring.gossiptalks.model.UserTest@54151d07]" started-at="2020-05-07T09:13:46Z" name="test_user_invalid" finished-at="2020-05-07T09:13:46Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_user_invalid -->
+        <test-method is-config="true" signature="close()[pri:0, instance:bg.codeacademy.spring.gossiptalks.model.UserTest@54151d07]" started-at="2020-05-07T09:13:46Z" name="close" finished-at="2020-05-07T09:13:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.model.UserTest -->
+      <class name="bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:09Z" name="springTestContextBeforeTestClass" finished-at="2020-05-07T09:13:09Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:09Z" name="springTestContextPrepareTestInstance" finished-at="2020-05-07T09:13:29Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="20721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="setupRestAssured()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:29Z" name="setupRestAssured" finished-at="2020-05-07T09:13:30Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRestAssured -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:30Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:30Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_incorrect_pageNo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:30Z" name="createData" finished-at="2020-05-07T09:13:30Z" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_incorrect_pageNo()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:30Z" name="test_incorrect_pageNo" finished-at="2020-05-07T09:13:35Z" duration-ms="4662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_incorrect_pageNo -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:35Z" name="deleteData" finished-at="2020-05-07T09:13:35Z" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:35Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:35Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_incorrect_pageNo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:35Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_invalid_gossip_with_emptyString()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:35Z" name="createData" finished-at="2020-05-07T09:13:35Z" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_post_invalid_gossip_with_emptyString()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:35Z" name="test_post_invalid_gossip_with_emptyString" finished-at="2020-05-07T09:13:36Z" duration-ms="538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post_invalid_gossip_with_emptyString -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:36Z" name="deleteData" finished-at="2020-05-07T09:13:36Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:36Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_invalid_gossip_with_emptyString()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:36Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:36Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_invalid_gossip_with_html()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:36Z" name="createData" finished-at="2020-05-07T09:13:36Z" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_post_invalid_gossip_with_html()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:36Z" name="test_post_invalid_gossip_with_html" finished-at="2020-05-07T09:13:37Z" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post_invalid_gossip_with_html -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="deleteData" finished-at="2020-05-07T09:13:37Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:37Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_invalid_gossip_with_html()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="createData" finished-at="2020-05-07T09:13:37Z" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_invalid_gossip_with_more255symbols()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test_post_invalid_gossip_with_more255symbols()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="test_post_invalid_gossip_with_more255symbols" finished-at="2020-05-07T09:13:37Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post_invalid_gossip_with_more255symbols -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="deleteData" finished-at="2020-05-07T09:13:37Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:37Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_valid_gossip()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_invalid_gossip_with_more255symbols()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="createData" finished-at="2020-05-07T09:13:37Z" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_post_valid_gossip()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="test_post_valid_gossip" finished-at="2020-05-07T09:13:37Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_post_valid_gossip -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="deleteData" finished-at="2020-05-07T09:13:37Z" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_valid_gossip()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="createData" finished-at="2020-05-07T09:13:37Z" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:37Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_valid_get_all_gossips()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test_valid_get_all_gossips()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:37Z" name="test_valid_get_all_gossips" finished-at="2020-05-07T09:13:38Z" duration-ms="139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_valid_get_all_gossips -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="deleteData" finished-at="2020-05-07T09:13:38Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_valid_get_all_gossips()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="createData" finished-at="2020-05-07T09:13:38Z" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_valid_get_all_gossips_200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test_valid_get_all_gossips_200()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="test_valid_get_all_gossips_200" finished-at="2020-05-07T09:13:38Z" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_valid_get_all_gossips_200 -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="deleteData" finished-at="2020-05-07T09:13:38Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:38Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_valid_get_all_gossips_200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_valid_get_user_gossips_200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="createData" finished-at="2020-05-07T09:13:38Z" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_valid_get_user_gossips_200()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="test_valid_get_user_gossips_200" finished-at="2020-05-07T09:13:38Z" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_valid_get_user_gossips_200 -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="deleteData" finished-at="2020-05-07T09:13:38Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:38Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_valid_get_user_gossips_200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d]" started-at="2020-05-07T09:13:38Z" name="springTestContextAfterTestClass" finished-at="2020-05-07T09:13:38Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest -->
+      <class name="bg.codeacademy.spring.gossiptalks.model.GossipTest">
+        <test-method is-config="true" signature="createValidator()[pri:0, instance:bg.codeacademy.spring.gossiptalks.model.GossipTest@2e9bff08]" started-at="2020-05-07T09:13:46Z" name="createValidator" finished-at="2020-05-07T09:13:46Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidator -->
+        <test-method signature="test_gossip_Invalid()[pri:0, instance:bg.codeacademy.spring.gossiptalks.model.GossipTest@2e9bff08]" started-at="2020-05-07T09:13:46Z" name="test_gossip_Invalid" finished-at="2020-05-07T09:13:46Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_gossip_Invalid -->
+        <test-method signature="test_gossip_null()[pri:0, instance:bg.codeacademy.spring.gossiptalks.model.GossipTest@2e9bff08]" started-at="2020-05-07T09:13:46Z" name="test_gossip_null" finished-at="2020-05-07T09:13:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_gossip_null -->
+        <test-method is-config="true" signature="close()[pri:0, instance:bg.codeacademy.spring.gossiptalks.model.GossipTest@2e9bff08]" started-at="2020-05-07T09:13:46Z" name="close" finished-at="2020-05-07T09:13:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.model.GossipTest -->
+      <class name="bg.codeacademy.spring.gossiptalks.service.GossipServiceTest">
+        <test-method signature="test_getAll_gossips_by_userId()[pri:0, instance:bg.codeacademy.spring.gossiptalks.service.GossipServiceTest@2e729fea]" started-at="2020-05-07T09:13:46Z" name="test_getAll_gossips_by_userId" finished-at="2020-05-07T09:13:47Z" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_getAll_gossips_by_userId -->
+        <test-method signature="test_get_all_gossips()[pri:0, instance:bg.codeacademy.spring.gossiptalks.service.GossipServiceTest@2e729fea]" started-at="2020-05-07T09:13:47Z" name="test_get_all_gossips" finished-at="2020-05-07T09:13:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_all_gossips -->
+        <test-method signature="test_save_a_gossip()[pri:0, instance:bg.codeacademy.spring.gossiptalks.service.GossipServiceTest@2e729fea]" started-at="2020-05-07T09:13:47Z" name="test_save_a_gossip" finished-at="2020-05-07T09:13:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_save_a_gossip -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.service.GossipServiceTest -->
+      <class name="bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests@3ed1446c]" started-at="2020-05-07T09:13:42Z" name="springTestContextBeforeTestClass" finished-at="2020-05-07T09:13:42Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests@3ed1446c]" started-at="2020-05-07T09:13:42Z" name="springTestContextPrepareTestInstance" finished-at="2020-05-07T09:13:46Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="4065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="setupRestAssured()[pri:0, instance:bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests@3ed1446c]" started-at="2020-05-07T09:13:46Z" name="setupRestAssured" finished-at="2020-05-07T09:13:46Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRestAssured -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests@3ed1446c]" started-at="2020-05-07T09:13:46Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:46Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests.contextLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="contextLoads()[pri:0, instance:bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests@3ed1446c]" started-at="2020-05-07T09:13:46Z" name="contextLoads" finished-at="2020-05-07T09:13:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextLoads -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests@3ed1446c]" started-at="2020-05-07T09:13:46Z" name="springTestContextAfterTestClass" finished-at="2020-05-07T09:13:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests@3ed1446c]" started-at="2020-05-07T09:13:46Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:46Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[void bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests.contextLoads()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests -->
+      <class name="bg.codeacademy.spring.gossiptalks.service.UserServiceTest">
+        <test-method signature="test_delete_user()[pri:0, instance:bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c]" started-at="2020-05-07T09:13:47Z" name="test_delete_user" finished-at="2020-05-07T09:13:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_user -->
+        <test-method signature="test_get_all_users()[pri:0, instance:bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c]" started-at="2020-05-07T09:13:47Z" name="test_get_all_users" finished-at="2020-05-07T09:13:47Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_all_users -->
+        <test-method signature="test_get_user_by_criteria()[pri:0, instance:bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c]" started-at="2020-05-07T09:13:47Z" name="test_get_user_by_criteria" finished-at="2020-05-07T09:13:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_user_by_criteria -->
+        <test-method signature="test_get_user_by_username()[pri:0, instance:bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c]" started-at="2020-05-07T09:13:47Z" name="test_get_user_by_username" finished-at="2020-05-07T09:13:47Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_user_by_username -->
+        <test-method signature="test_get_user_by_username_invalid()[pri:0, instance:bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c]" started-at="2020-05-07T09:13:47Z" name="test_get_user_by_username_invalid" finished-at="2020-05-07T09:13:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_user_by_username_invalid -->
+        <test-method signature="test_save_user()[pri:0, instance:bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c]" started-at="2020-05-07T09:13:47Z" name="test_save_user" finished-at="2020-05-07T09:13:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_save_user -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.service.UserServiceTest -->
+      <class name="bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest">
+        <test-method signature="detectHtml(java.lang.String, boolean)[pri:0, instance:bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest@6b26839d]" started-at="2020-05-07T09:13:47Z" name="detectHtml" data-provider="html_text" finished-at="2020-05-07T09:13:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hello world]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHtml -->
+        <test-method signature="detectHtml(java.lang.String, boolean)[pri:0, instance:bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest@6b26839d]" started-at="2020-05-07T09:13:47Z" name="detectHtml" data-provider="html_text" finished-at="2020-05-07T09:13:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<body id="wpdiscuz_5.3.5">This is a body</body>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHtml -->
+        <test-method signature="detectHtml(java.lang.String, boolean)[pri:0, instance:bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest@6b26839d]" started-at="2020-05-07T09:13:47Z" name="detectHtml" data-provider="html_text" finished-at="2020-05-07T09:13:47Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Contains single tag <tag/>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- detectHtml -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest -->
+      <class name="bg.codeacademy.spring.gossiptalks.DTO.UserDTOWithBase32Test">
+        <test-method is-config="true" signature="createValidator()[pri:0, instance:bg.codeacademy.spring.gossiptalks.DTO.UserDTOWithBase32Test@6cb2d5ea]" started-at="2020-05-07T09:13:42Z" name="createValidator" finished-at="2020-05-07T09:13:42Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidator -->
+        <test-method signature="test_Invalid_UserDTO()[pri:0, instance:bg.codeacademy.spring.gossiptalks.DTO.UserDTOWithBase32Test@6cb2d5ea]" started-at="2020-05-07T09:13:42Z" name="test_Invalid_UserDTO" finished-at="2020-05-07T09:13:42Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Invalid_UserDTO -->
+        <test-method is-config="true" signature="close()[pri:0, instance:bg.codeacademy.spring.gossiptalks.DTO.UserDTOWithBase32Test@6cb2d5ea]" started-at="2020-05-07T09:13:42Z" name="close" finished-at="2020-05-07T09:13:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.DTO.UserDTOWithBase32Test -->
+      <class name="bg.codeacademy.spring.gossiptalks.controller.UserControllerTest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:38Z" name="springTestContextBeforeTestClass" finished-at="2020-05-07T09:13:38Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:38Z" name="springTestContextPrepareTestInstance" finished-at="2020-05-07T09:13:38Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:38Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:38Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.get_all_users_request_verify_200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="setupRestAssured()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:38Z" name="setupRestAssured" finished-at="2020-05-07T09:13:38Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextPrepareTestInstance" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupRestAssured -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:38Z" name="createData" finished-at="2020-05-07T09:13:38Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="get_all_users_request_verify_200()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:38Z" name="get_all_users_request_verify_200" finished-at="2020-05-07T09:13:39Z" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_all_users_request_verify_200 -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="deleteData" finished-at="2020-05-07T09:13:39Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.get_all_users_request_verify_200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:39Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_change_incorrect_password()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="createData" finished-at="2020-05-07T09:13:39Z" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_change_incorrect_password()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="test_change_incorrect_password" finished-at="2020-05-07T09:13:39Z" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_change_incorrect_password -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="deleteData" finished-at="2020-05-07T09:13:39Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:39Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_change_incorrect_password_confirmation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_change_incorrect_password()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="createData" finished-at="2020-05-07T09:13:39Z" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_change_incorrect_password_confirmation()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="test_change_incorrect_password_confirmation" finished-at="2020-05-07T09:13:39Z" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_change_incorrect_password_confirmation -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="deleteData" finished-at="2020-05-07T09:13:39Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:39Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_change_password()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_change_incorrect_password_confirmation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:39Z" name="createData" finished-at="2020-05-07T09:13:40Z" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_change_password()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="test_change_password" finished-at="2020-05-07T09:13:40Z" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_change_password -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="deleteData" finished-at="2020-05-07T09:13:40Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_change_password()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="createData" finished-at="2020-05-07T09:13:40Z" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_create__invalid_email_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test_create__invalid_email_user()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="test_create__invalid_email_user" finished-at="2020-05-07T09:13:40Z" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_create__invalid_email_user -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="deleteData" finished-at="2020-05-07T09:13:40Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:40Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_create__invalid_email_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_create__invalid_username_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:40Z" name="createData" finished-at="2020-05-07T09:13:41Z" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_create__invalid_username_user()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="test_create__invalid_username_user" finished-at="2020-05-07T09:13:41Z" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_create__invalid_username_user -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="deleteData" finished-at="2020-05-07T09:13:41Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:41Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_create__invalid_username_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="createData" finished-at="2020-05-07T09:13:41Z" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:41Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_create_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test_create_user()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="test_create_user" finished-at="2020-05-07T09:13:41Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_create_user -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="deleteData" finished-at="2020-05-07T09:13:41Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:41Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_create_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:41Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_follow_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="createData" finished-at="2020-05-07T09:13:41Z" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_follow_user()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:41Z" name="test_follow_user" finished-at="2020-05-07T09:13:42Z" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_follow_user -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="deleteData" finished-at="2020-05-07T09:13:42Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:42Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_get_information_about_me()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_follow_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="createData" finished-at="2020-05-07T09:13:42Z" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method signature="test_get_information_about_me()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="test_get_information_about_me" finished-at="2020-05-07T09:13:42Z" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_get_information_about_me -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="deleteData" finished-at="2020-05-07T09:13:42Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:42Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_get_information_about_me()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="createData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="createData" finished-at="2020-05-07T09:13:42Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createData -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="springTestContextBeforeTestMethod" finished-at="2020-05-07T09:13:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_un_follow_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="test_un_follow_user()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="test_un_follow_user" finished-at="2020-05-07T09:13:42Z" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_un_follow_user -->
+        <test-method is-config="true" signature="deleteData()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="deleteData" finished-at="2020-05-07T09:13:42Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="springTestContextAfterTestMethod" finished-at="2020-05-07T09:13:42Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_un_follow_user()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8]" started-at="2020-05-07T09:13:42Z" name="springTestContextAfterTestClass" finished-at="2020-05-07T09:13:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.controller.UserControllerTest -->
+      <class name="bg.codeacademy.spring.gossiptalks.DTO.GossipDtoTest">
+        <test-method is-config="true" signature="createValidator()[pri:0, instance:bg.codeacademy.spring.gossiptalks.DTO.GossipDtoTest@2d2afbdf]" started-at="2020-05-07T09:13:42Z" name="createValidator" finished-at="2020-05-07T09:13:42Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidator -->
+        <test-method signature="test_createInvalid_GossipDto()[pri:0, instance:bg.codeacademy.spring.gossiptalks.DTO.GossipDtoTest@2d2afbdf]" started-at="2020-05-07T09:13:42Z" name="test_createInvalid_GossipDto" finished-at="2020-05-07T09:13:42Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_createInvalid_GossipDto -->
+        <test-method is-config="true" signature="close()[pri:0, instance:bg.codeacademy.spring.gossiptalks.DTO.GossipDtoTest@2d2afbdf]" started-at="2020-05-07T09:13:42Z" name="close" finished-at="2020-05-07T09:13:42Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- bg.codeacademy.spring.gossiptalks.DTO.GossipDtoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,264 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>37/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 07 09:13:08 EEST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38056 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests.contextLoads()'><b>contextLoads</b><br>Test class: bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.GossipTalksApplicationTests@3ed1446c</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest.detectHtml()'><b>detectHtml</b><br>Test class: bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest<br>Parameters: Hello world, false</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest@6b26839d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest.detectHtml()'><b>detectHtml</b><br>Test class: bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest<br>Parameters: Contains single tag <tag/>, true</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest@6b26839d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest.detectHtml()'><b>detectHtml</b><br>Test class: bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest<br>Parameters: <body id="wpdiscuz_5.3.5">This is a body</body>, true</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.util.DetectHtmlTest@6b26839d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.get_all_users_request_verify_200()'><b>get_all_users_request_verify_200</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.DTO.UserDTOWithBase32Test.test_Invalid_UserDTO()'><b>test_Invalid_UserDTO</b><br>Test class: bg.codeacademy.spring.gossiptalks.DTO.UserDTOWithBase32Test</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.DTO.UserDTOWithBase32Test@6cb2d5ea</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_change_incorrect_password()'><b>test_change_incorrect_password</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_change_incorrect_password_confirmation()'><b>test_change_incorrect_password_confirmation</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_change_password()'><b>test_change_password</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.DTO.GossipDtoTest.test_createInvalid_GossipDto()'><b>test_createInvalid_GossipDto</b><br>Test class: bg.codeacademy.spring.gossiptalks.DTO.GossipDtoTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.DTO.GossipDtoTest@2d2afbdf</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_create__invalid_email_user()'><b>test_create__invalid_email_user</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_create__invalid_username_user()'><b>test_create__invalid_username_user</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_create_user()'><b>test_create_user</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.service.UserServiceTest.test_delete_user()'><b>test_delete_user</b><br>Test class: bg.codeacademy.spring.gossiptalks.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_follow_user()'><b>test_follow_user</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.service.GossipServiceTest.test_getAll_gossips_by_userId()'><b>test_getAll_gossips_by_userId</b><br>Test class: bg.codeacademy.spring.gossiptalks.service.GossipServiceTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.service.GossipServiceTest@2e729fea</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.service.GossipServiceTest.test_get_all_gossips()'><b>test_get_all_gossips</b><br>Test class: bg.codeacademy.spring.gossiptalks.service.GossipServiceTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.service.GossipServiceTest@2e729fea</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.service.UserServiceTest.test_get_all_users()'><b>test_get_all_users</b><br>Test class: bg.codeacademy.spring.gossiptalks.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_get_information_about_me()'><b>test_get_information_about_me</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.service.UserServiceTest.test_get_user_by_criteria()'><b>test_get_user_by_criteria</b><br>Test class: bg.codeacademy.spring.gossiptalks.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.service.UserServiceTest.test_get_user_by_username()'><b>test_get_user_by_username</b><br>Test class: bg.codeacademy.spring.gossiptalks.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.service.UserServiceTest.test_get_user_by_username_invalid()'><b>test_get_user_by_username_invalid</b><br>Test class: bg.codeacademy.spring.gossiptalks.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.model.GossipTest.test_gossip_Invalid()'><b>test_gossip_Invalid</b><br>Test class: bg.codeacademy.spring.gossiptalks.model.GossipTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.model.GossipTest@2e9bff08</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.model.GossipTest.test_gossip_null()'><b>test_gossip_null</b><br>Test class: bg.codeacademy.spring.gossiptalks.model.GossipTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.model.GossipTest@2e9bff08</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_incorrect_pageNo()'><b>test_incorrect_pageNo</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</td>
+<td></td>
+<td>4</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_invalid_gossip_with_emptyString()'><b>test_post_invalid_gossip_with_emptyString</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_invalid_gossip_with_html()'><b>test_post_invalid_gossip_with_html</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_invalid_gossip_with_more255symbols()'><b>test_post_invalid_gossip_with_more255symbols</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_post_valid_gossip()'><b>test_post_valid_gossip</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.service.GossipServiceTest.test_save_a_gossip()'><b>test_save_a_gossip</b><br>Test class: bg.codeacademy.spring.gossiptalks.service.GossipServiceTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.service.GossipServiceTest@2e729fea</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.service.UserServiceTest.test_save_user()'><b>test_save_user</b><br>Test class: bg.codeacademy.spring.gossiptalks.service.UserServiceTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.service.UserServiceTest@1a345c6c</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.UserControllerTest.test_un_follow_user()'><b>test_un_follow_user</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.UserControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.UserControllerTest@75eca6d8</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.model.UserTest.test_user_Null()'><b>test_user_Null</b><br>Test class: bg.codeacademy.spring.gossiptalks.model.UserTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.model.UserTest@54151d07</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.model.UserTest.test_user_invalid()'><b>test_user_invalid</b><br>Test class: bg.codeacademy.spring.gossiptalks.model.UserTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.model.UserTest@54151d07</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_valid_get_all_gossips()'><b>test_valid_get_all_gossips</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_valid_get_all_gossips_200()'><b>test_valid_get_all_gossips_200</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d</td></tr>
+<tr>
+<td title='bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest.test_valid_get_user_gossips_200()'><b>test_valid_get_user_gossips_200</b><br>Test class: bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest</td>
+<td></td>
+<td>0</td>
+<td>bg.codeacademy.spring.gossiptalks.controller.GossipControllerTest@1018552d</td></tr>
+</table><p>
+</body>
+</html>
